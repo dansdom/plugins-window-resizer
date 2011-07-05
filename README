@@ -1,1 +1,6 @@
 A window resizer plugin using jquery - the script is well documented, but I will add more documentation soon!
+
+My to do list:
+1. prevent flickering caused by resizing to the maximum screen size before adjusting to the new screen resolution
+2. have an option to use full screen size
+3. if user defines an array of screen sizes the overwrite the default sizes, it is currently mergin them using the jQuery extend() method, but I can easily change that
