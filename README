@@ -8,6 +8,9 @@ sizes		:	JSON data - an array of value pairs representing screen resolutions
 index		:	number - keps track of currently selected resolution, can be set, but really just a data holder
 loopDelay	:	number - on slideshow mode the period between display resolutions
 bodyOverflow	:	boolean - sets body to display scrollbars or not
+controlBtns	:	boolean - displays the list of screen sizes as buttons in control panel
+resizeInput	:	boolean - displays the form to allow manual entering of screen sizes
+playBox		:	boolean - allows control panel for the 'slideshow' feature
 press "m"	: 	not an option - pressing the "m" key will toggle the controls to/from minimised view
 left arrow	:	not an option - activate the previous window size in the list
 right arrow	:	not an option - activate the next window size in the list
