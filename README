@@ -1,4 +1,16 @@
-A window resizer plugin using jquery - the script is well documented, but I will add more documentation soon!
+
+jQuery Window Resizer plugin
+v0.1 - basic functionality built
+v0.2 - added min/max key command - so that it can be used on very low resolutions when the  control panel isn't fully displayed
+
+Settings:
+sizes		:	JSON data - an array of value pairs representing screen resolutions
+index		:	number - keps track of currently selected resolution, can be set, but really just a data holder
+loopDelay	:	number - on slideshow mode the period between display resolutions
+bodyOverflow	:	boolean - sets body to display scrollbars or not
+press "m"	: 	not an option - pressing the "m" key will toggle the controls to/from minimised view
+left arrow	:	not an option - activate the previous window size in the list
+right arrow	:	not an option - activate the next window size in the list
 
 My to do list:
 1. prevent flickering caused by resizing to the maximum screen size before adjusting to the new screen resolution
