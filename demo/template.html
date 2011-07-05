@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title></title>
+          <!-- Meta tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />  <!-- w3c recomends this meta tag  -->
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />  <!-- w3c recomends this meta tag  -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="copyright" content="" />
+	<meta name="author" content="" />
+	<meta name="rating" content="general" />
+	<meta name="robots" content="all" />
+        <!-- Stylesheets -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	    <!-- Javascripts -->
+    <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="js/resizerv0.2.js"></script>
+    <script language="javascript" type="text/javascript">
+    		$(document).ready(function(){
+				
+				$(".init").click(function(){
+					$(window).windowResize({bodyOverflow: false});
+				});
+				$(".init2").click(function(){
+					$(window).windowResize({bodyOverflow: true});
+				});
+			});
+    </script>
+
+</head>
+
+<body style="background:#aaa">
+
+      <div id="wrap" style="background:#aaa;margin:50px">
+      
+      	   <div style="padding:40px;margin:0 auto;font-size:13px;background:#eee">
+      	   		<h1>Lorem Ipsum</h1>
+      	   		<input type="button" value="start resizer no scrolling" class="init" />
+      	   		<input type="button" value="start resizer with scrollbars" class="init2" />
+      	   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, quam id aliquet pulvinar, nulla ligula suscipit ligula, vestibulum sagittis urna enim sed purus! Duis eros eros, iaculis id blandit a, pellentesque ut justo. Suspendisse ante diam, suscipit vitae vulputate at; dapibus et tortor. Donec at leo quam, eget blandit turpis. Maecenas auctor elit iaculis nisl lobortis egestas. Fusce sit amet turpis sed dui viverra vehicula quis nec velit. Suspendisse potenti. Fusce et tortor purus, sed aliquam ipsum? Mauris mollis, orci eget feugiat mollis, massa velit tincidunt magna, ac vestibulum nibh nulla vel quam? Nullam ac lorem sed arcu cursus congue. Nam imperdiet urna quam, ut fermentum enim. Nullam at tempor quam! Integer vitae neque metus, vel feugiat est. Curabitur ut lectus ac nibh tempus gravida.</p>
+				<p>Nulla quis mauris tellus. Phasellus elementum dui vel dui volutpat a dignissim turpis scelerisque. Suspendisse semper turpis nec lorem condimentum ac luctus elit auctor? Nunc eget sem nec purus pellentesque posuere. Praesent id purus mi. Integer arcu lectus, congue sit amet viverra ac; laoreet in turpis. Praesent sagittis lorem ut urna feugiat fringilla. Proin aliquam auctor orci vel iaculis. Etiam id nibh porta sapien gravida consectetur. Etiam pulvinar lacus commodo ante tempus nec feugiat lectus tincidunt. Integer scelerisque viverra justo, eget ultricies mauris tempus quis. In hac habitasse platea dictumst. Phasellus ante diam, luctus a eleifend et, facilisis eget nulla. Integer non erat dignissim tellus vehicula cursus. Quisque non diam sit amet magna eleifend pellentesque vitae nec ipsum.</p>
+				<p>Nunc porta, libero vitae tempor congue, nibh ante venenatis justo, nec congue diam sem at dolor. Phasellus tincidunt libero sed elit aliquet nec blandit nisi ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu imperdiet magna. Donec sed velit in ante posuere egestas. Duis eu est a massa viverra imperdiet. Sed sodales ante ac urna tempor condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque sem mauris, eleifend ac laoreet eget, pretium ac diam. Phasellus malesuada aliquam nunc id fermentum? Duis imperdiet velit ac nibh vehicula sed lobortis mi semper. Vestibulum sit amet gravida lacus! Sed et mi eget eros volutpat cursus! Aliquam eget felis purus, nec luctus nibh. Pellentesque sit amet consequat sem. Ut eros libero, scelerisque a tincidunt sed, faucibus quis justo.</p>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+					<li>Aliquam id nisi adipiscing risus volutpat fringilla!</li>
+					<li>Donec porta nisl at diam dapibus in pellentesque erat cursus.</li>
+					<li>Ut imperdiet nisi at felis hendrerit sagittis tristique leo dapibus.</li>
+					<li>Sed posuere nibh id lectus congue sed vestibulum est iaculis?</li>
+					<li>Nunc interdum lacus ac justo dictum commodo rhoncus urna interdum?</li>
+				</ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, quam id aliquet pulvinar, nulla ligula suscipit ligula, vestibulum sagittis urna enim sed purus! Duis eros eros, iaculis id blandit a, pellentesque ut justo. Suspendisse ante diam, suscipit vitae vulputate at; dapibus et tortor. Donec at leo quam, eget blandit turpis. Maecenas auctor elit iaculis nisl lobortis egestas. Fusce sit amet turpis sed dui viverra vehicula quis nec velit. Suspendisse potenti. Fusce et tortor purus, sed aliquam ipsum? Mauris mollis, orci eget feugiat mollis, massa velit tincidunt magna, ac vestibulum nibh nulla vel quam? Nullam ac lorem sed arcu cursus congue. Nam imperdiet urna quam, ut fermentum enim. Nullam at tempor quam! Integer vitae neque metus, vel feugiat est. Curabitur ut lectus ac nibh tempus gravida.</p>
+				<p>Nulla quis mauris tellus. Phasellus elementum dui vel dui volutpat a dignissim turpis scelerisque. Suspendisse semper turpis nec lorem condimentum ac luctus elit auctor? Nunc eget sem nec purus pellentesque posuere. Praesent id purus mi. Integer arcu lectus, congue sit amet viverra ac; laoreet in turpis. Praesent sagittis lorem ut urna feugiat fringilla. Proin aliquam auctor orci vel iaculis. Etiam id nibh porta sapien gravida consectetur. Etiam pulvinar lacus commodo ante tempus nec feugiat lectus tincidunt. Integer scelerisque viverra justo, eget ultricies mauris tempus quis. In hac habitasse platea dictumst. Phasellus ante diam, luctus a eleifend et, facilisis eget nulla. Integer non erat dignissim tellus vehicula cursus. Quisque non diam sit amet magna eleifend pellentesque vitae nec ipsum.</p>
+      	   </div>
+
+      </div>  <!-- end of wrap div -->
+      
+</body>
+</html>
