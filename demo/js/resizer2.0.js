@@ -1,4 +1,14 @@
-// test jQuery plugin
+/* 
+	jQuery Window Resizer Plugin 
+	Copyright (c) 2011 Daniel Thomson
+	https://github.com/dansdom/plugins-window-resizer
+	
+	Licensed under the MIT license:
+	http://www.opensource.org/licenses/mit-license.php
+*/
+
+// v 1.0 - basic functionality
+// v 2.0 - refactored for new architecture
 
 (function ($) {
 	// this ones for you 'uncle' Doug!
